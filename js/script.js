@@ -16,19 +16,12 @@ if (navigator.serviceWorker) {
 }
 
 //process
-function myButtonClicked() {
-  const day = document.getElementById("week").value
-  const typeAge = document.getElementById("typeAge").value
-
-  if (
-    day == "Tuesday" ||
-    day == "Thursday" ||
-    (typeAge >= 12 && typeAge <= 25)
-  ) {
-    document.getElementById("weekday-discount").innerHTML =
-      "You are eligible to get a discount!"
-  } else {
-    document.getElementById("weekday-discount").innerHTML =
-      "You are not eligible to get a discount..."
+function myButtonClicked("cookieClick") {
+  let counter = 0
+  while (myButtonClicked = true) {
+    counter++
+    document.getElementById("ANS").innerHTML = 
+      "Counter " + counter + "."
+  }
   }
 }
