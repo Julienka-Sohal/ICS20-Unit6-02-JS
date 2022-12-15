@@ -39,6 +39,9 @@ p {
 }
 
 img {
-  float: right;
-  margin-right: 15px;
+  float: center;
+  margin-top: 100px;
+  margin-bottom: 350px;
+  margin-right: 350px;
+  margin-left: 650px;
 }
