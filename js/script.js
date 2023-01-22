@@ -16,12 +16,11 @@ if (navigator.serviceWorker) {
 }
 
 //process
-function myButtonClicked("cookieClick") {
-  let counter = 0
-  while (myButtonClicked = true) {
+document.getElementById("cookieClick").onclick = function myButtonClicked() {
+  let cookieClicker = document.getElementById("cookieClick")
+  while (cookieClicker == true) {
     counter++
     document.getElementById("ANS").innerHTML = 
-      "Counter " + counter + "."
-  }
+      "Counter:  " + counter + "."
   }
 }
