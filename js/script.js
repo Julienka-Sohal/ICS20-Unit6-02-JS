@@ -20,7 +20,6 @@ document.getElementById("cookieClick").onclick = function myButtonClicked() {
   let cookieClicker = document.getElementById("cookieClick")
   while (cookieClicker == true) {
     counter++
-    document.getElementById("ANS").innerHTML = 
-      "Counter:  " + counter + "."
+    document.getElementById("ANS").innerHTML = "Counter:  " + counter + "."
   }
 }
